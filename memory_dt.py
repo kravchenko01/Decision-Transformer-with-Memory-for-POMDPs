@@ -139,6 +139,8 @@ class MemoryDecisionTransformer(nn.Module):
             self.memory_proj = nn.Linear(memory_dim, n_embed)
         else:
             self.memory = None
+
+        self.memory_dim = memory_dim
         
         # Transformer
         transformer_layer = nn.TransformerEncoderLayer(
