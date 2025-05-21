@@ -1,0 +1,122 @@
+Training Memory Decision Transformer on velocity_cartpole...
+Dataset stats: total=49482, train=44533, val=4949, state_dim=2, actions=2
+Epoch 1/7: Train Loss=0.5490, Val Loss=0.4596
+Running environment validation...
+Episode 1: Return=373.0, Steps=373
+Episode 2: Return=500.0, Steps=500
+Episode 3: Return=480.0, Steps=480
+Episode 4: Return=500.0, Steps=500
+Episode 5: Return=500.0, Steps=500
+Episode 6: Return=500.0, Steps=500
+Episode 7: Return=500.0, Steps=500
+Episode 8: Return=374.0, Steps=374
+Episode 9: Return=500.0, Steps=500
+Episode 10: Return=373.0, Steps=373
+Validation: Mean Return=460.00, Success Rate=70.00%
+New best model with return 460.00
+Epoch 2/7: Train Loss=0.4702, Val Loss=0.4572
+Running environment validation...
+Episode 1: Return=500.0, Steps=500
+Episode 2: Return=500.0, Steps=500
+Episode 3: Return=500.0, Steps=500
+Episode 4: Return=500.0, Steps=500
+Episode 5: Return=500.0, Steps=500
+Episode 6: Return=500.0, Steps=500
+Episode 7: Return=500.0, Steps=500
+Episode 8: Return=500.0, Steps=500
+Episode 9: Return=500.0, Steps=500
+Episode 10: Return=500.0, Steps=500
+Validation: Mean Return=500.00, Success Rate=100.00%
+New best model with return 500.00
+Epoch 3/7: Train Loss=0.4500, Val Loss=0.4384
+Running environment validation...
+Episode 1: Return=485.0, Steps=485
+Episode 2: Return=500.0, Steps=500
+Episode 3: Return=500.0, Steps=500
+Episode 4: Return=488.0, Steps=488
+Episode 5: Return=500.0, Steps=500
+Episode 6: Return=500.0, Steps=500
+Episode 7: Return=494.0, Steps=494
+Episode 8: Return=312.0, Steps=312
+Episode 9: Return=481.0, Steps=481
+Episode 10: Return=469.0, Steps=469
+Validation: Mean Return=472.90, Success Rate=90.00%
+Epoch 4/7: Train Loss=0.4403, Val Loss=0.4360
+Running environment validation...
+Episode 1: Return=377.0, Steps=377
+Episode 2: Return=500.0, Steps=500
+Episode 3: Return=381.0, Steps=381
+Episode 4: Return=461.0, Steps=461
+Episode 5: Return=278.0, Steps=278
+Episode 6: Return=500.0, Steps=500
+Episode 7: Return=297.0, Steps=297
+Episode 8: Return=466.0, Steps=466
+Episode 9: Return=386.0, Steps=386
+Episode 10: Return=488.0, Steps=488
+Validation: Mean Return=413.40, Success Rate=50.00%
+Epoch 5/7: Train Loss=0.4369, Val Loss=0.4364
+Running environment validation...
+Episode 1: Return=461.0, Steps=461
+Episode 2: Return=484.0, Steps=484
+Episode 3: Return=500.0, Steps=500
+Episode 4: Return=478.0, Steps=478
+Episode 5: Return=403.0, Steps=403
+Episode 6: Return=473.0, Steps=473
+Episode 7: Return=404.0, Steps=404
+Episode 8: Return=391.0, Steps=391
+Episode 9: Return=500.0, Steps=500
+Episode 10: Return=500.0, Steps=500
+Validation: Mean Return=459.40, Success Rate=70.00%
+Epoch 6/7: Train Loss=0.4344, Val Loss=0.4335
+Running environment validation...
+Episode 1: Return=500.0, Steps=500
+Episode 2: Return=500.0, Steps=500
+Episode 3: Return=464.0, Steps=464
+Episode 4: Return=491.0, Steps=491
+Episode 5: Return=435.0, Steps=435
+Episode 6: Return=490.0, Steps=490
+Episode 7: Return=475.0, Steps=475
+Episode 8: Return=500.0, Steps=500
+Episode 9: Return=496.0, Steps=496
+Episode 10: Return=472.0, Steps=472
+Validation: Mean Return=482.30, Success Rate=90.00%
+Epoch 7/7: Train Loss=0.4332, Val Loss=0.4333
+Running environment validation...
+Episode 1: Return=500.0, Steps=500
+Episode 2: Return=466.0, Steps=466
+Episode 3: Return=500.0, Steps=500
+Episode 4: Return=483.0, Steps=483
+Episode 5: Return=400.0, Steps=400
+Episode 6: Return=500.0, Steps=500
+Episode 7: Return=500.0, Steps=500
+Episode 8: Return=500.0, Steps=500
+Episode 9: Return=500.0, Steps=500
+Episode 10: Return=476.0, Steps=476
+Validation: Mean Return=482.50, Success Rate=90.00%
+Early stopping at epoch 7
+Best model saved to models/memory_dt_velocity_cartpole_gru_best.pt
+Evaluating model on velocity_cartpole...
+Episode 1: Return=485.0, Steps=485
+Episode 2: Return=490.0, Steps=490
+Episode 3: Return=500.0, Steps=500
+Episode 4: Return=500.0, Steps=500
+Episode 5: Return=500.0, Steps=500
+Episode 6: Return=475.0, Steps=475
+Episode 7: Return=464.0, Steps=464
+Episode 8: Return=394.0, Steps=394
+Episode 9: Return=500.0, Steps=500
+Episode 10: Return=500.0, Steps=500
+Episode 11: Return=402.0, Steps=402
+Episode 12: Return=500.0, Steps=500
+Episode 13: Return=480.0, Steps=480
+Episode 14: Return=480.0, Steps=480
+Episode 15: Return=383.0, Steps=383
+Episode 16: Return=476.0, Steps=476
+Episode 17: Return=411.0, Steps=411
+Episode 18: Return=500.0, Steps=500
+Episode 19: Return=402.0, Steps=402
+Episode 20: Return=470.0, Steps=470
+Evaluation Summary:
+Mean Return: 465.60
+Success Rate: 75.00%
+Evaluation complete. Mean return: 465.60, Success rate: 75.00%

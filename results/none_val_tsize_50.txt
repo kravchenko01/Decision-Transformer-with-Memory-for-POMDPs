@@ -1,0 +1,84 @@
+WARNING: Determined n_embed=64 from model, overriding argument n_embed=128
+Model parameters: n_embed=64, n_layer=3, n_head=4, memory_dim=64
+action_head structure: Linear
+Visualizing velocity_cartpole agent from models/memory_dt_velocity_cartpole_None_best.pt
+Memory type: none, Context length: 20
+
+Episode 1/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=0, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=0, RTG=494.00
+Step 8: Action=0, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Step 10: Action=1, RTG=491.00
+Episode 1 finished with reward: 10.0
+
+Episode 2/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=0, RTG=495.00
+Step 7: Action=0, RTG=494.00
+Step 8: Action=0, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Step 10: Action=1, RTG=491.00
+Episode 2 finished with reward: 10.0
+
+Episode 3/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=0, RTG=495.00
+Step 7: Action=0, RTG=494.00
+Step 8: Action=0, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Step 10: Action=0, RTG=491.00
+Step 11: Action=0, RTG=490.00
+Episode 3 finished with reward: 11.0
+
+Episode 4/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=0, RTG=496.00
+Step 6: Action=0, RTG=495.00
+Step 7: Action=0, RTG=494.00
+Step 8: Action=0, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Episode 4 finished with reward: 9.0
+
+Episode 5/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=0, RTG=495.00
+Step 7: Action=0, RTG=494.00
+Step 8: Action=0, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Step 10: Action=0, RTG=491.00
+Step 11: Action=0, RTG=490.00
+Episode 5 finished with reward: 11.0
+
+Evaluation complete!
+Average reward over 5 episodes: 10.20

@@ -1,0 +1,225 @@
+WARNING: Determined n_embed=64 from model, overriding argument n_embed=128
+Model parameters: n_embed=64, n_layer=3, n_head=4, memory_dim=64
+action_head structure: Linear
+Visualizing velocity_cartpole agent from models/memory_dt_velocity_cartpole_None_best.pt
+Memory type: none, Context length: 50
+
+Episode 1/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=1, RTG=494.00
+Step 8: Action=1, RTG=493.00
+Step 9: Action=1, RTG=492.00
+Step 10: Action=1, RTG=491.00
+Step 11: Action=1, RTG=490.00
+Step 12: Action=1, RTG=489.00
+Step 13: Action=1, RTG=488.00
+Step 14: Action=1, RTG=487.00
+Step 15: Action=1, RTG=486.00
+Step 16: Action=1, RTG=485.00
+Step 17: Action=0, RTG=484.00
+Step 18: Action=0, RTG=483.00
+Step 19: Action=0, RTG=482.00
+Episode 1 finished with reward: 19.0
+
+Episode 2/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=1, RTG=499.00
+Step 3: Action=1, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=1, RTG=494.00
+Step 8: Action=1, RTG=493.00
+Step 9: Action=1, RTG=492.00
+Step 10: Action=0, RTG=491.00
+Step 11: Action=0, RTG=490.00
+Step 12: Action=0, RTG=489.00
+Step 13: Action=0, RTG=488.00
+Step 14: Action=0, RTG=487.00
+Step 15: Action=0, RTG=486.00
+Step 16: Action=1, RTG=485.00
+Step 17: Action=0, RTG=484.00
+Step 18: Action=0, RTG=483.00
+Step 19: Action=0, RTG=482.00
+Step 20: Action=0, RTG=481.00
+Step 21: Action=0, RTG=480.00
+Step 22: Action=0, RTG=479.00
+Step 23: Action=1, RTG=478.00
+Step 24: Action=1, RTG=477.00
+Step 25: Action=1, RTG=476.00
+Step 26: Action=1, RTG=475.00
+Step 27: Action=1, RTG=474.00
+Step 28: Action=1, RTG=473.00
+Step 29: Action=1, RTG=472.00
+Step 30: Action=1, RTG=471.00
+Step 31: Action=1, RTG=470.00
+Step 32: Action=1, RTG=469.00
+Step 33: Action=1, RTG=468.00
+Step 34: Action=0, RTG=467.00
+Step 35: Action=0, RTG=466.00
+Step 36: Action=0, RTG=465.00
+Step 37: Action=0, RTG=464.00
+Step 38: Action=0, RTG=463.00
+Step 39: Action=0, RTG=462.00
+Step 40: Action=0, RTG=461.00
+Step 41: Action=0, RTG=460.00
+Step 42: Action=0, RTG=459.00
+Step 43: Action=0, RTG=458.00
+Step 44: Action=0, RTG=457.00
+Step 45: Action=0, RTG=456.00
+Step 46: Action=0, RTG=455.00
+Step 47: Action=0, RTG=454.00
+Step 48: Action=0, RTG=453.00
+Step 49: Action=0, RTG=452.00
+Step 50: Action=1, RTG=451.00
+Step 51: Action=1, RTG=450.00
+Step 52: Action=1, RTG=449.00
+Step 53: Action=1, RTG=448.00
+Step 54: Action=1, RTG=447.00
+Step 55: Action=1, RTG=446.00
+Step 56: Action=1, RTG=445.00
+Episode 2 finished with reward: 56.0
+
+Episode 3/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=1, RTG=499.00
+Step 3: Action=1, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=1, RTG=494.00
+Step 8: Action=1, RTG=493.00
+Step 9: Action=1, RTG=492.00
+Step 10: Action=1, RTG=491.00
+Step 11: Action=1, RTG=490.00
+Step 12: Action=0, RTG=489.00
+Step 13: Action=0, RTG=488.00
+Step 14: Action=0, RTG=487.00
+Step 15: Action=0, RTG=486.00
+Step 16: Action=0, RTG=485.00
+Step 17: Action=0, RTG=484.00
+Episode 3 finished with reward: 17.0
+
+Episode 4/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=0, RTG=499.00
+Step 3: Action=0, RTG=498.00
+Step 4: Action=1, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=1, RTG=494.00
+Step 8: Action=1, RTG=493.00
+Step 9: Action=1, RTG=492.00
+Step 10: Action=1, RTG=491.00
+Step 11: Action=1, RTG=490.00
+Step 12: Action=1, RTG=489.00
+Step 13: Action=1, RTG=488.00
+Step 14: Action=1, RTG=487.00
+Step 15: Action=0, RTG=486.00
+Step 16: Action=0, RTG=485.00
+Step 17: Action=0, RTG=484.00
+Episode 4 finished with reward: 17.0
+
+Episode 5/5
+========================================
+Target return: 500.0
+Step 1: Initial action=0 (default)
+Step 2: Action=1, RTG=499.00
+Step 3: Action=1, RTG=498.00
+Step 4: Action=0, RTG=497.00
+Step 5: Action=1, RTG=496.00
+Step 6: Action=1, RTG=495.00
+Step 7: Action=1, RTG=494.00
+Step 8: Action=1, RTG=493.00
+Step 9: Action=0, RTG=492.00
+Step 10: Action=0, RTG=491.00
+Step 11: Action=0, RTG=490.00
+Step 12: Action=0, RTG=489.00
+Step 13: Action=0, RTG=488.00
+Step 14: Action=1, RTG=487.00
+Step 15: Action=1, RTG=486.00
+Step 16: Action=1, RTG=485.00
+Step 17: Action=0, RTG=484.00
+Step 18: Action=0, RTG=483.00
+Step 19: Action=0, RTG=482.00
+Step 20: Action=0, RTG=481.00
+Step 21: Action=0, RTG=480.00
+Step 22: Action=0, RTG=479.00
+Step 23: Action=1, RTG=478.00
+Step 24: Action=1, RTG=477.00
+Step 25: Action=1, RTG=476.00
+Step 26: Action=1, RTG=475.00
+Step 27: Action=1, RTG=474.00
+Step 28: Action=0, RTG=473.00
+Step 29: Action=0, RTG=472.00
+Step 30: Action=0, RTG=471.00
+Step 31: Action=0, RTG=470.00
+Step 32: Action=0, RTG=469.00
+Step 33: Action=0, RTG=468.00
+Step 34: Action=0, RTG=467.00
+Step 35: Action=1, RTG=466.00
+Step 36: Action=1, RTG=465.00
+Step 37: Action=1, RTG=464.00
+Step 38: Action=1, RTG=463.00
+Step 39: Action=1, RTG=462.00
+Step 40: Action=1, RTG=461.00
+Step 41: Action=1, RTG=460.00
+Step 42: Action=1, RTG=459.00
+Step 43: Action=0, RTG=458.00
+Step 44: Action=0, RTG=457.00
+Step 45: Action=0, RTG=456.00
+Step 46: Action=0, RTG=455.00
+Step 47: Action=0, RTG=454.00
+Step 48: Action=0, RTG=453.00
+Step 49: Action=0, RTG=452.00
+Step 50: Action=0, RTG=451.00
+Step 51: Action=0, RTG=450.00
+Step 52: Action=0, RTG=449.00
+Step 53: Action=1, RTG=448.00
+Step 54: Action=1, RTG=447.00
+Step 55: Action=1, RTG=446.00
+Step 56: Action=1, RTG=445.00
+Step 57: Action=1, RTG=444.00
+Step 58: Action=1, RTG=443.00
+Step 59: Action=1, RTG=442.00
+Step 60: Action=1, RTG=441.00
+Step 61: Action=1, RTG=440.00
+Step 62: Action=1, RTG=439.00
+Step 63: Action=1, RTG=438.00
+Step 64: Action=1, RTG=437.00
+Step 65: Action=0, RTG=436.00
+Step 66: Action=0, RTG=435.00
+Step 67: Action=0, RTG=434.00
+Step 68: Action=0, RTG=433.00
+Step 69: Action=0, RTG=432.00
+Step 70: Action=0, RTG=431.00
+Step 71: Action=0, RTG=430.00
+Step 72: Action=0, RTG=429.00
+Step 73: Action=0, RTG=428.00
+Step 74: Action=0, RTG=427.00
+Step 75: Action=0, RTG=426.00
+Step 76: Action=0, RTG=425.00
+Step 77: Action=0, RTG=424.00
+Step 78: Action=0, RTG=423.00
+Step 79: Action=1, RTG=422.00
+Step 80: Action=1, RTG=421.00
+Step 81: Action=1, RTG=420.00
+Step 82: Action=1, RTG=419.00
+Step 83: Action=1, RTG=418.00
+Episode 5 finished with reward: 83.0
+
+Evaluation complete!
+Average reward over 5 episodes: 38.40
